@@ -72,6 +72,7 @@
         <module>spring-boot-config-zuul</module>
         <module>spring-boot-config-jpa</module>
         <module>spring-boot-config-parent</module>
+        <module>spring-boot-config-tomcat</module>
     </modules>
 
 
