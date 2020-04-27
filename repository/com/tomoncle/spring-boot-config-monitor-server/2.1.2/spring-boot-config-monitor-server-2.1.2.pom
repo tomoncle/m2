@@ -59,7 +59,7 @@
         <!--################ 测试依赖 ################-->
         <dependency>
             <groupId>com.tomoncle</groupId>
-            <artifactId>spring-boot-config-constants</artifactId>
+            <artifactId>spring-boot-config-autoscan</artifactId>
             <version>${project.version}</version>
             <scope>test</scope>
         </dependency>
