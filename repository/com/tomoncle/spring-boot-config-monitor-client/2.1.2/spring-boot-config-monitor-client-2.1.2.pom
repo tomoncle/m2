@@ -12,6 +12,11 @@
     <artifactId>spring-boot-config-monitor-client</artifactId>
 
     <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <optional>true</optional>
+        </dependency>
         <!-- ################ 客户端配置 ################-->
         <!--Actuator插件是SpringBoot原生提供的一个服务，可以通过暴露端点路由，
           用来输出应用中的诸多 端点信息,健康度、运行指标、日志信息、线程状况等等-->
@@ -36,6 +41,12 @@
             <artifactId>spring-boot-admin-starter-client</artifactId>
             <version>${spring-boot-admin.version}</version>
         </dependency>
+        <!--  认证模块配置   -->
+        <dependency>
+            <groupId>com.tomoncle</groupId>
+            <artifactId>spring-boot-config-monitor-security</artifactId>
+            <version>${project.version}</version>
+        </dependency>
 
         <!--################ 测试依赖 ################-->
         <dependency>
@@ -52,7 +63,13 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-tomcat</artifactId>
-            <!--<scope>provided</scope>-->
+            <scope>provided</scope>
+<!--            <scope>test</scope>-->
+        </dependency>
+        <dependency>
+            <groupId>com.tomoncle</groupId>
+            <artifactId>spring-boot-config-autoscan</artifactId>
+            <version>${project.version}</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
