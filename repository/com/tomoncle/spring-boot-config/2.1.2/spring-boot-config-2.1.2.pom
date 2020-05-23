@@ -91,6 +91,7 @@
         <module>spring-boot-config-tomcat</module>
         <module>spring-boot-config-annotation</module>
         <module>spring-boot-config-redis</module>
+        <module>spring-boot-config-nlp</module>
     </modules>
 
 

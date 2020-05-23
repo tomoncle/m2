@@ -33,6 +33,11 @@
             <artifactId>spring-boot-starter-web</artifactId>
             <scope>provided</scope>
         </dependency>
+        <dependency>
+            <groupId>com.tomoncle</groupId>
+            <artifactId>spring-boot-config-autoscan</artifactId>
+            <version>${project.version}</version>
+        </dependency>
         <!--test-->
         <dependency>
             <groupId>com.tomoncle</groupId>

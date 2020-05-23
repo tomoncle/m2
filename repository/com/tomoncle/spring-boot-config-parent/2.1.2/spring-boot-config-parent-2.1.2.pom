@@ -135,6 +135,11 @@
                 <artifactId>spring-boot-config-redis</artifactId>
                 <version>${project.version}</version>
             </dependency>
+            <dependency>
+                <groupId>com.tomoncle</groupId>
+                <artifactId>spring-boot-config-nlp</artifactId>
+                <version>${project.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 

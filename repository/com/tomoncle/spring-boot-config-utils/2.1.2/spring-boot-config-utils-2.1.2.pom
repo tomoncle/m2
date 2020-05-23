@@ -70,6 +70,27 @@
             <groupId>net.sourceforge.jexcelapi</groupId>
             <artifactId>jxl</artifactId>
             <version>2.6.12</version>
+            <exclusions>
+                <!-- 移除默认的log4j依赖，因为版本低，所以与其他包（比如dubbo）都不兼容
+
+                如果不在这里移除，则在引用这个包的项目中移除 jxl 也可以
+                    <dependency>
+                        <groupId>com.tomoncle</groupId>
+                        <artifactId>spring-boot-config-utils</artifactId>
+                        <version>2.1.2</version>
+                        <exclusions>
+                            <exclusion>
+                                <groupId>net.sourceforge.jexcelapi</groupId>
+                                <artifactId>jxl</artifactId>
+                            </exclusion>
+                        </exclusions>
+                    </dependency>
+                -->
+                <exclusion>
+                    <groupId>log4j</groupId>
+                    <artifactId>log4j</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
         <dependency>
@@ -90,6 +111,12 @@
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
             <version>28.1-jre</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.tomoncle</groupId>
+            <artifactId>spring-boot-config-autoscan</artifactId>
+            <version>${project.version}</version>
         </dependency>
 
         <!--Test dependency-->
