@@ -92,6 +92,7 @@
         <module>spring-boot-config-annotation</module>
         <module>spring-boot-config-redis</module>
         <module>spring-boot-config-nlp</module>
+        <module>spring-boot-config-dubbo</module>
     </modules>
 
 
