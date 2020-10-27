@@ -1,6 +1,8 @@
 # M2 [![Build Status](https://travis-ci.org/tomoncle/m2.svg?branch=master)][travis] ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/tomoncle/m2.svg) ![GitHub repo size](https://img.shields.io/github/repo-size/tomoncle/m2.svg?color=green&logoColor=green) ![GitHub top language](https://img.shields.io/github/languages/top/tomoncle/m2.svg?color=yes) ![GitHub issues](https://img.shields.io/github/issues/tomoncle/m2.svg) ![Hex.pm](https://img.shields.io/hexpm/l/plug.svg)
 
-> tomoncle's private maven repository.
+---
+> **本仓库属于个人的私有微型maven仓库**.  允许他人学习及工作使用，注意: 如果项目中使用了该仓库，且文件有问题，请提交issues. 
+---
 
 ```LICENSE
    Licensed under the Apache License, Version 2.0 (the "License");
