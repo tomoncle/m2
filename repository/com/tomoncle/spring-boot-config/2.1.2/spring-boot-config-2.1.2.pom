@@ -95,6 +95,7 @@
         <module>spring-boot-config-dubbo</module>
         <module>spring-boot-config-jmh</module>
         <module>spring-boot-config-elasticsearch</module>
+        <module>spring-boot-config-clickhouse</module>
     </modules>
 
 

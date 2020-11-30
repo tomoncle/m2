@@ -102,6 +102,11 @@
             </dependency>
             <dependency>
                 <groupId>com.tomoncle</groupId>
+                <artifactId>spring-boot-config-clickhouse</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.tomoncle</groupId>
                 <artifactId>spring-boot-config-zipkin-server</artifactId>
                 <version>${project.version}</version>
             </dependency>
