@@ -89,13 +89,14 @@
         <module>spring-boot-config-jpa</module>
         <module>spring-boot-config-parent</module>
         <module>spring-boot-config-tomcat</module>
-        <module>spring-boot-config-annotation</module>
+        <module>spring-boot-config-model</module>
         <module>spring-boot-config-redis</module>
         <module>spring-boot-config-nlp</module>
         <module>spring-boot-config-dubbo</module>
         <module>spring-boot-config-jmh</module>
         <module>spring-boot-config-elasticsearch</module>
         <module>spring-boot-config-clickhouse</module>
+        <module>spring-boot-config-aop</module>
     </modules>
 
 
