@@ -132,7 +132,7 @@
             </dependency>
             <dependency>
                 <groupId>com.tomoncle</groupId>
-                <artifactId>spring-boot-config-annotation</artifactId>
+                <artifactId>spring-boot-config-model</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
@@ -153,6 +153,11 @@
             <dependency>
                 <groupId>com.tomoncle</groupId>
                 <artifactId>spring-boot-config-elasticsearch</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.tomoncle</groupId>
+                <artifactId>spring-boot-config-aop</artifactId>
                 <version>${project.version}</version>
             </dependency>
         </dependencies>
