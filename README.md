@@ -43,7 +43,7 @@
             <name>tomoncle Repositories</name>
             <url>https://github.com/tomoncle/m2/raw/master/repository/</url>
             <!--  github访问速度慢，使用备用地址
-            <url>https://www.tomoncle.com/repository</url>
+            <url>https://maven.tomoncle.com</url>
              -->
             <releases>
                 <enabled>true</enabled>
@@ -58,7 +58,7 @@
             <name>tomoncle snapshots Repositories</name>
             <url>https://github.com/tomoncle/m2/raw/master/snapshots/</url>
             <!--  github访问速度慢，使用备用地址
-            <url>https://www.tomoncle.com/snapshots</url>
+            <url>https://snapshots-maven.tomoncle.com</url>
              -->
             <releases>
                 <enabled>false</enabled>
