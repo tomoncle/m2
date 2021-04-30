@@ -160,6 +160,11 @@
                 <artifactId>spring-boot-config-aop</artifactId>
                 <version>${project.version}</version>
             </dependency>
+            <dependency>
+                <groupId>com.tomoncle</groupId>
+                <artifactId>spring-boot-config-crypto</artifactId>
+                <version>${project.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
