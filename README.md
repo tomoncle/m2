@@ -100,14 +100,6 @@
     <!--spring-boot-config-->
     <dependency>
         <groupId>com.tomoncle</groupId>
-        <artifactId>spring-boot-config-monitor-server</artifactId>
-    </dependency>
-    <dependency>
-        <groupId>com.tomoncle</groupId>
-        <artifactId>spring-boot-config-monitor-client</artifactId>
-    </dependency>
-    <dependency>
-        <groupId>com.tomoncle</groupId>
         <artifactId>spring-boot-config-constants</artifactId>
     </dependency>
     <dependency>
