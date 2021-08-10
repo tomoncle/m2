@@ -15,8 +15,8 @@
   ~ limitations under the License.
   -->
 
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>spring-boot-config</artifactId>
@@ -27,10 +27,6 @@
 
     <artifactId>spring-boot-config-constants</artifactId>
     <dependencies>
-        <!-- 导入配置文件处理器，当使用@ConfigurationProperties 注解时,配置文件进行绑定就会有提示
-     使用 application.properties 或 application.yaml 时输入属性,会自动提示
-     会生成 target/classes/META-INF/spring-configuration-metadata.json 文件,自动提示就是根据该文件
--->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-configuration-processor</artifactId>

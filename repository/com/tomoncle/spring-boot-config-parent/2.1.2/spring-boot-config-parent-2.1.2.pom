@@ -15,8 +15,8 @@
   ~ limitations under the License.
   -->
 
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>spring-boot-config</artifactId>
@@ -42,52 +42,12 @@
             </dependency>
             <dependency>
                 <groupId>com.tomoncle</groupId>
-                <artifactId>spring-boot-config-consul</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.tomoncle</groupId>
                 <artifactId>spring-boot-config-druid</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.tomoncle</groupId>
                 <artifactId>spring-boot-config-errors</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.tomoncle</groupId>
-                <artifactId>spring-boot-config-HikariCP</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.tomoncle</groupId>
-                <artifactId>spring-boot-config-jpa</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.tomoncle</groupId>
-                <artifactId>spring-boot-config-mail</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.tomoncle</groupId>
-                <artifactId>spring-boot-config-monitor-server</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.tomoncle</groupId>
-                <artifactId>spring-boot-config-monitor-security</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.tomoncle</groupId>
-                <artifactId>spring-boot-config-monitor-client</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.tomoncle</groupId>
-                <artifactId>spring-boot-config-mybatis</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
@@ -105,21 +65,6 @@
                 <artifactId>spring-boot-config-clickhouse</artifactId>
                 <version>${project.version}</version>
             </dependency>
-            <dependency>
-                <groupId>com.tomoncle</groupId>
-                <artifactId>spring-boot-config-zipkin-server</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.tomoncle</groupId>
-                <artifactId>spring-boot-config-zipkin-client</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <!--<dependency>-->
-                <!--<groupId>com.tomoncle</groupId>-->
-                <!--<artifactId>spring-boot-config-zipkin-dependencies</artifactId>-->
-                <!--<version>${project.version}</version>-->
-            <!--</dependency>-->
             <dependency>
                 <groupId>com.tomoncle</groupId>
                 <artifactId>spring-boot-config-zuul</artifactId>
@@ -142,27 +87,7 @@
             </dependency>
             <dependency>
                 <groupId>com.tomoncle</groupId>
-                <artifactId>spring-boot-config-nlp</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.tomoncle</groupId>
-                <artifactId>spring-boot-config-dubbo</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.tomoncle</groupId>
-                <artifactId>spring-boot-config-elasticsearch</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.tomoncle</groupId>
                 <artifactId>spring-boot-config-aop</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.tomoncle</groupId>
-                <artifactId>spring-boot-config-crypto</artifactId>
                 <version>${project.version}</version>
             </dependency>
         </dependencies>

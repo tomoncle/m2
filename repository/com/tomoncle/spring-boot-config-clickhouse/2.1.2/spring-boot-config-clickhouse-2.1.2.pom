@@ -43,11 +43,6 @@
             <artifactId>fastjson</artifactId>
             <version>1.2.36</version>
         </dependency>
-        <dependency>
-            <groupId>com.tomoncle</groupId>
-            <artifactId>spring-boot-config-crypto</artifactId>
-            <version>${project.version}</version>
-        </dependency>
     </dependencies>
 
 </project>

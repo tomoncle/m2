@@ -15,8 +15,8 @@
   ~ limitations under the License.
   -->
 
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>spring-boot-config</artifactId>
@@ -43,7 +43,7 @@
             <artifactId>jedis</artifactId>
             <version>2.9.0</version>
         </dependency>
-        
+
 
         <!--################ 测试依赖 ################-->
         <dependency>
@@ -56,12 +56,10 @@
             <artifactId>spring-boot-starter-web</artifactId>
             <scope>test</scope>
         </dependency>
-        <!--servlet支持，main方法启动时，需要注释provided作用域-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-tomcat</artifactId>
             <scope>provided</scope>
-            <!-- <scope>test</scope>-->
         </dependency>
         <dependency>
             <groupId>com.tomoncle</groupId>
