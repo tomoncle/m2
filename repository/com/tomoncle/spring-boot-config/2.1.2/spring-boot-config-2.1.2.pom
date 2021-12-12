@@ -92,7 +92,8 @@
         <project.build.sourceEncoding>${file_encoding}</project.build.sourceEncoding>
         <!--spring-cloud依赖版本-->
         <spring-cloud.version>Greenwich.RELEASE</spring-cloud.version>
-
+        <!--spring-boot fix Apache Log4j 远程代码执行漏洞 严重-->
+        <log4j2.version>2.15.0</log4j2.version>
     </properties>
 
 
