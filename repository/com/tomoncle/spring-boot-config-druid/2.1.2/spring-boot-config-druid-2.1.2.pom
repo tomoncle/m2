@@ -15,8 +15,8 @@
   ~ limitations under the License.
   -->
 
-<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xmlns="http://maven.apache.org/POM/4.0.0"
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>spring-boot-config</artifactId>
@@ -28,16 +28,24 @@
     <artifactId>spring-boot-config-druid</artifactId>
 
     <dependencies>
+        <!--spring-boot-starter-web jar提供启动嵌入式Tomcat容器的自动化配置,
+            并且提供对微服务应用有价值的端点信息，如服务器信息、应用指标（metrics）以及环境详情
+             该配置中druid servlet依赖-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
             <scope>provided</scope>
         </dependency>
+        <!-- 导入配置文件处理器，当使用@ConfigurationProperties 注解时,配置文件进行绑定就会有提示
+             使用 application.properties 或 application.yaml 时输入属性,会自动提示
+             会生成 target/classes/META-INF/spring-configuration-metadata.json 文件,自动提示就是根据该文件
+        -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-configuration-processor</artifactId>
             <optional>true</optional>
         </dependency>
+
         <!-- https://mvnrepository.com/artifact/com.alibaba/druid -->
         <dependency>
             <groupId>com.alibaba</groupId>
